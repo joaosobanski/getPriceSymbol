@@ -20,16 +20,7 @@ const getPair = async (pair) => {
 const main = async () => {
     usd = await getUsd()
     console.log(await getPair('BTC_USDT') * usd)
-    console.log(await getPair('CWEB_USDT') * usd)
-    console.log(await getPair('CAKE_USDT') * usd)
     console.log(await getPair('LINK_USDT') * usd)
-    console.log(await getPair('DOT_USDT') * usd)
-    console.log(await getPair('ADA_USDT') * usd)
 }
-
-
-
-
-
 
 main()
